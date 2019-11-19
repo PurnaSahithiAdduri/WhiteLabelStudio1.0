@@ -98,6 +98,7 @@ feedback:f.feedback
 
   //Save Qualified Oppoetunity
   insertQualifiedOpportynity(f) {
+    console.log("saving QO : insertQualifiedOpportynity(f)");
     var QO = {
       customerid: f.customerId,
       customername: f.customerName,

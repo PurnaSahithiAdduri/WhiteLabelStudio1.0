@@ -404,7 +404,6 @@ export class OpportunityDetailsComponent implements OnInit {
         this.qualifiedOpportunitiesForm.value.endCustomerName = '';
         this.qualifiedOpportunitiesForm.value.endCustomerInfrastructure = '';
       }
-
       if (!this.qualifiedOpportunitiesForm.value.customerName) {
         this.toastrService.error('Please select customer name.', 'Missing Values');
       } else if (this.itemsValidation()) {
